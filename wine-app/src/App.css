@@ -20,3 +20,25 @@
 .App-link {
   color: #09d3ac;
 }
+
+.matt-image {
+  width: 30%;
+}
+
+.wine-color {
+  display: flex;
+  margin: 15px;
+}
+
+.red-wine-glass {
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+}
+
+
+.white-wine-glass {
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+}
