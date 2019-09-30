@@ -43,7 +43,17 @@
   height: 80%;
 }
 
-.red-wine-wheel {
-  width: 80%;
-  height: 80%;
+.wine-style-red {
+ /* margin-top: -200px; */
+}
+
+
+.red-wine-wheel-image {
+  width: 60%;
+  height: 60%;
+}
+
+.white-wine-wheel-image {
+  width: 60%;
+  height: 60%;
 }

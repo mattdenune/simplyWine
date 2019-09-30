@@ -8,6 +8,7 @@ import WineColor from './components/WineColor';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import WineStyleRed from './components/WineStyleRed';
+import WineStyleWhite from './components/WineStyleWhite';
 
 
 
@@ -40,6 +41,7 @@ class App extends Component {
               <Route exact path='/about' component={About} />
               <Route exact path='/winecolor' component={WineColor} />
               <Route exact path='/winestylered' component={WineStyleRed}/>
+              <Route exact path='/winestylewhite' component={WineStyleWhite} />
               <Route component={NotFound} />
               
             </Switch>
