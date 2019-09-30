@@ -7,7 +7,7 @@ class WineStyleRed extends Component {
     render() {
         return(
             <div>
-                <img src={RedWheel} alt="#"/>
+                <img className='red-wine-wheel' src={RedWheel} alt="#"/>
             </div>
         )
     }
