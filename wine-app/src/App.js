@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import WineStyleRed from './components/WineStyleRed';
 
 
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -38,6 +39,7 @@ class App extends Component {
             <Switch>
               <Route exact path='/about' component={About} />
               <Route exact path='/winecolor' component={WineColor} />
+              <Route exact path='winestylered' component={WineStyleRed}/>
               <Route component={NotFound} />
               
             </Switch>
