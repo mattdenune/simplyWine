@@ -7,7 +7,7 @@ class WineColor extends Component {
     render() {
         return(
                 <div className='wine-color'>
-                    <img src={Red} alt="#" className='red-wine-glass' />
+                    <img src={Red} alt="#" className='red-wine-glass'  />
                     <img src={White} alt="#" className='white-wine-glass'/>
                 </div>
         )
