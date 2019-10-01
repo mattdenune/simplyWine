@@ -1,3 +1,7 @@
+/* * {
+  border: 1px solid red;
+} */
+
 .App {
   text-align: center;
 }
@@ -44,13 +48,19 @@
 }
 
 .wine-style-red {
- /* margin-top: -200px; */
+  display: flex;
+  flex-direction: row;
 }
 
 
 .red-wine-wheel-image {
   width: 60%;
   height: 60%;
+}
+
+.wine-style-white {
+  display: flex;
+  flex-direction: row;
 }
 
 .white-wine-wheel-image {

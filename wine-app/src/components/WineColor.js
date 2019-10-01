@@ -5,12 +5,15 @@ import { Link } from 'react-router-dom';
 import winestylered from './WineStyleRed';
 
 class WineColor extends Component {
+    constructor(props) {
+        super(props)
+    }
 
     render() {
         return(
                 <div className='wine-color'>
                     <Link to='/winestylered'><img src={Red} alt="#" className='red-wine-glass'/></Link>
-                    <Link to='/winestylewhite'><img src={White} alt="#" className='white-wine-glass'/></Link>
+                <Link to='/winestylewhite'><img src={White} alt="#" className='white-wine-glass' onClick={() => this.props.changeColor('white')}/></Link>
                 </div>
         )
     }

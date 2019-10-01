@@ -5,7 +5,7 @@ class Image extends Component {
     render() {
         return(
             <div>
-
+                <img src="" alt="#"/>
             </div>
         )
     }

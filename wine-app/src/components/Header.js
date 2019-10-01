@@ -8,7 +8,7 @@ class Header extends Component {
         return (
             <nav>
                 <h1>Simply Wine</h1>
-                <h3>helping you choose the right wine for you</h3>
+                <h3>helping you find your wine</h3>
                 <ul>
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='winecolor'>Choose Again</Link></li>
