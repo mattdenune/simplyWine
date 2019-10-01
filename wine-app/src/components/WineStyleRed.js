@@ -1,38 +1,42 @@
-import React, { Component } from 'react'
-import RedWheel from '../Images/red-wheel-1.JPG'
+import React, { Component } from 'react';
+import RedWheel from '../Images/red-wheel-1.JPG';
+import { Link } from 'react-router-dom';
 
 
 class WineStyleRed extends Component {
+    constructor(props) {
+        super(props)
+    }
 
     render() {
         return(
             <div className='wine-style-red'>
                 {/* <img className='red-wine-wheel-image' src={RedWheel} alt="#"/> */}
                 <div className='red-style-choice'>
-                    <div>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.mildReds()}}>
                         <h3>MILD-MANNERED REDS</h3>
                         <p><strong>Body:</strong> LIGHT to MEDIUM</p>
                         <p><strong>Texture:</strong> LOW TANNIN; GENTLE</p>
                         <p><strong>Flavor Intensity:</strong> LIGHT TO MEDIUM; SUBTLE, REFRESHING</p>
-                    </div>
-                    <div>
-                        <h3>PLACEHOLDER</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
-                        <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
-                    </div>
-                    <div>
-                        <h3>PLACEHOLDER</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
-                        <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
-                    </div>
-                    <div>
-                        <h3>PLACEHOLDER</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
-                        <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
-                    </div>
+                    </div></Link>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.fruityReds() }}>
+                        <h3>Soft, Fruity Reds</h3>
+                        <p><strong>Body:</strong> Light to Medium</p>
+                        <p><strong>Texture:</strong> Low to Medium Tannin; Soft</p>
+                        <p><strong>Flavor Intensity:</strong> Medium to High; Refreshing</p>
+                    </div></Link>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.spicyReds() }}>
+                        <h3>Fresh, Spicy Reds</h3>
+                        <p><strong>Body:</strong> Medium; Some Full</p>
+                        <p><strong>Texture:</strong> Medium Tannin; Firm</p>
+                        <p><strong>Flavor Intensity:</strong> Medium to High; Vibrant</p>
+                    </div></Link>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.powerfulReds() }}>
+                        <h3>Powerful Reds</h3>
+                        <p><strong>Body:</strong> Full</p>
+                        <p><strong>Texture:</strong> High Tannin; Sturdy</p>
+                        <p><strong>Flavor Intensity:</strong> Medium to High; Concentrated</p>
+                    </div></Link>
 
                 </div>
 

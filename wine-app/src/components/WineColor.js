@@ -12,8 +12,8 @@ class WineColor extends Component {
     render() {
         return(
                 <div className='wine-color'>
-                    <Link to='/winestylered'><img src={Red} alt="#" className='red-wine-glass'/></Link>
-                <Link to='/winestylewhite'><img src={White} alt="#" className='white-wine-glass' onClick={() => this.props.changeColor('white')}/></Link>
+                    <Link to='/winestylered'><img src={Red} alt="#" className='red-wine-glass' onClick={() => this.props.changeColor('red')} /></Link>
+                <Link to='/winestylewhite'><img src={White} alt="#" className='white-wine-glass' onClick={() => this.props.changeColor('white')} /></Link>
                 </div>
         )
     }

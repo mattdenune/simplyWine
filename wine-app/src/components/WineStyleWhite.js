@@ -12,31 +12,32 @@ class WineStyleWhite extends Component {
             <div className='wine-style-white'>
                 {/* <img className='white-wine-wheel-image' src={WhiteWheel} alt="#"/> */}
                 <div className='white-style-choice'>
-                    <Link to='/wineinfo'><div onClick={() => {this.props.grapeVarietal(['Grillo', 'Sauvignon Blanc'])}}>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.freshWhite()}}>
                         <h3>Fresh, Unoaked Whites</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
-                        <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
+                        <p><strong>Body:</strong> LIGHT to MEDIUM</p>
+                        <p><strong>Texture:</strong> CRISP, REFRESHING</p>
+                        <p><strong>Flavor Intensity:</strong> LIGHT to MEDIUM; MILD</p>
                     </div></Link>
                     
-                    <div>
-                        <h3>PLACEHOLDER</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.earthyWhite() }}>
+                        <h3>Earthy Whites</h3>
+                        <p><strong>Body:</strong> Medium to Full</p>
                         <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
-                    </div>
-                    <div>
-                        <h3>PLACEHOLDER</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
-                        <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
-                    </div>
-                    <div>
-                        <h3>PLACEHOLDER</h3>
-                        <p><strong>Body:</strong> PLACEHOLDER</p>
-                        <p><strong>Texture:</strong> PLACEHOLDER</p>
-                        <p><strong>Flavor Intensity:</strong> PLACEHOLDER</p>
-                    </div>
+                        <p><strong>Flavor Intensity:</strong> Medium; Minerally</p>
+                    </div></Link>
+                    
+                    <Link to='/wineinfo'><div onClick={() => { this.props.aromaticWhite() }}>
+                        <h3>Aromatic Whites</h3>
+                        <p><strong>Body:</strong> Light to Medium; Some Full</p>
+                        <p><strong>Texture:</strong> Crisp; Some Soft</p>
+                        <p><strong>Flavor Intensity:</strong> High; Complex</p>
+                    </div></Link>
+                    <Link to='/wineinfo'><div onClick={() => { this.props.richWhite() }}>
+                        <h3>Rich, Oaky Whites</h3>
+                        <p><strong>Body:</strong> Full</p>
+                        <p><strong>Texture:</strong> Soft, Rich</p>
+                        <p><strong>Flavor Intensity:</strong> High; Oaky</p>
+                    </div></Link>
 
                 </div>
                 <div className='white-style-description'>
