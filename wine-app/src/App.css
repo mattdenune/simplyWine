@@ -65,6 +65,18 @@
 }
 
 .red-style-choice {
+  
+}
+
+.red-style-choice .mild-button, .fruity-button, .spicy-button, .powerful-button {
+  border: 1px solid black;
+}
+
+.red-style-description {
+
+}
+
+.red-style-description .mild-description, .fruity-description, .spicy-description, .powerful-description {
   border: 1px solid black;
 }
 
