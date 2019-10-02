@@ -85,23 +85,60 @@ body {
   flex-direction: row;
 }
 
-.red-style-choice {}
+.red-style-choice {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px 0 50px;
+}
+
+.mild-red {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.fruity-red {
+  display: flex;
+  flex-direction: row;
+}
+
+.spicy-red {
+  display: flex;
+  flex-direction: row;
+}
+
+.powerful-red {
+  display: flex;
+  flex-direction: row;
+}
 
 .red-style-choice .mild-button,
 .fruity-button,
 .spicy-button,
 .powerful-button {
   border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 500px;
+  margin: 15px 0;
 }
 
-.red-style-description {}
-
-.red-style-description .mild-description,
+.red-style-choice .mild-description,
 .fruity-description,
 .spicy-description,
 .powerful-description {
   border: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 500px;
+  margin: 15px 0;
 }
+
+.mild-description p {
+ align-self: center;
+ 
+}
+
 
 .white-wine-wheel-image {
   width: 60%;
