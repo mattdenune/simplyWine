@@ -2,6 +2,10 @@
   border: 1px solid red;
 } */
 
+body {
+  background-color: #C1c8e4
+}
+
 .App {
   text-align: center;
 }
@@ -35,14 +39,16 @@
 }
 
 .red-wine-glass {
-  border: 2px solid black;
+  border: 5px solid #8860d0;
+  border-radius: 15px;
   width: 80%;
   height: 80%;
 }
 
 
 .white-wine-glass {
-  border: 2px solid black;
+  border: 5px solid #8860d0;
+  border-radius: 15px;
   width: 80%;
   height: 80%;
 }
@@ -64,19 +70,21 @@
   flex-direction: row;
 }
 
-.red-style-choice {
-  
-}
+.red-style-choice {}
 
-.red-style-choice .mild-button, .fruity-button, .spicy-button, .powerful-button {
+.red-style-choice .mild-button,
+.fruity-button,
+.spicy-button,
+.powerful-button {
   border: 1px solid black;
 }
 
-.red-style-description {
+.red-style-description {}
 
-}
-
-.red-style-description .mild-description, .fruity-description, .spicy-description, .powerful-description {
+.red-style-description .mild-description,
+.fruity-description,
+.spicy-description,
+.powerful-description {
   border: 1px solid black;
 }
 
@@ -89,4 +97,55 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+nav {
+  margin-bottom: 60px;
+  border-bottom: 5px solid #5ab9ea;
+  border-radius: 15px
+}
+
+nav h1 {
+  font-family: 'Elsie Swash Caps', cursive;
+  font-size: 50px;
+  text-shadow: -2px -2px 0 #84ceeb, 2px -2px 0 #84ceeb, -2px 2px 0 #84ceeb, 2px 2px 0 #84ceeb;
+}
+
+nav h3 {
+  font-family: 'Oldenburg', cursive;
+  font-size: 30px;
+}
+
+nav li {
+  font-family: 'Oldenburg', cursive;
+  display: inline;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.footer {
+  font-family: 'Oldenburg', cursive;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.about img {
+  border: 5px solid #8860d0;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+.about p {
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+
 }

@@ -144,6 +144,9 @@ class App extends Component {
       // console.log(this.grapeVarietal)
       return (
         <div className="App">
+          <head>
+            <link href="https://fonts.googleapis.com/css?family=Elsie+Swash+Caps|KoHo|Oldenburg|Rhodium+Libre|Trykker&display=swap" rel="stylesheet"></link>
+          </head>
           <Header />
           <main>
             <Switch>
