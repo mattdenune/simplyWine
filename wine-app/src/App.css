@@ -88,12 +88,16 @@ body {
 .red-style-choice {
   display: flex;
   flex-direction: column;
-  margin: 0 50px 0 50px;
+  /* margin: 0 50px 0 50px; */
+  justify-content: center;
+  align-content: center;
 }
 
 .mild-red {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 
@@ -132,11 +136,24 @@ body {
   border-bottom-right-radius: 15px;
   width: 500px;
   margin: 15px 0;
+  text-align: justify;
+  
 }
 
 .mild-description p {
- align-self: center;
- 
+margin: 7%;
+}
+
+.fruity-description p {
+margin: 7%;
+}
+
+.spicy-description p {
+margin: 7%;
+}
+
+.powerful-description p {
+margin: 7%;
 }
 
 
