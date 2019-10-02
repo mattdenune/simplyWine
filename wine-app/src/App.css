@@ -156,6 +156,7 @@ body {
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #BF1E40;
 }
 
 .wine-style-choice-red .wine-two-button {
@@ -166,6 +167,7 @@ body {
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #A01B30;
 }
 
 .wine-style-choice-red .wine-three-button {
@@ -176,6 +178,7 @@ body {
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #7E1126;
 }
 
 .wine-style-choice-red .wine-four-button {
@@ -186,6 +189,7 @@ body {
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #4C0A18;
 }
 
 .wine-style-choice-red .wine-one-description {
@@ -195,6 +199,7 @@ body {
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #BF1E40;
 }
 
 .wine-style-choice-red .wine-two-description {
@@ -204,6 +209,7 @@ body {
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #A01B30;
 }
 
 .wine-style-choice-red .wine-three-description {
@@ -213,6 +219,7 @@ body {
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #7E1126;
 }
 
 .wine-style-choice-red .wine-four-description {
@@ -222,6 +229,7 @@ body {
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #4C0A18;
 }
 
 .wine-style-choice-white .wine-one-button {
