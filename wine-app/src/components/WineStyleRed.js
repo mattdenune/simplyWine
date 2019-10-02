@@ -10,11 +10,12 @@ class WineStyleRed extends Component {
 
     render() {
         return(
-            <div className='wine-style-red'>
+            <div className='wine-style'>
                 {/* <img className='red-wine-wheel-image' src={RedWheel} alt="#"/> */}
-                <div className='red-style-choice'>
-                    <div className='mild-red'>
-                        <Link to='/wineinfo'><div className='mild-button' onClick={() => { this.props.mildReds()}}>
+                <div className='wine-style-choice'>
+
+                    <div className='wine-one'>
+                        <Link to='/wineinfo'><div className='wine-one-button' onClick={() => { this.props.mildReds()}}>
                             <h3>MILD-MANNERED REDS</h3>
                             <p><strong>Body:</strong> LIGHT to MEDIUM</p>
                             <p><strong>Texture:</strong> LOW TANNIN; GENTLE</p>
@@ -26,7 +27,8 @@ class WineStyleRed extends Component {
                         </p>
                         </div>
                     </div>
-                    <div className='fruity-red'>
+
+                    <div className='wine-two'>
                         <Link to='/wineinfo'><div className='fruity-button' onClick={() => { this.props.fruityReds() }}>
                             <h3>Soft, Fruity Reds</h3>
                             <p><strong>Body:</strong> Light to Medium</p>
@@ -39,7 +41,8 @@ class WineStyleRed extends Component {
                         </p>
                         </div>
                     </div>
-                    <div className='spicy-red'>
+
+                    <div className='wine-three'>
                         <Link to='/wineinfo'><div className='spicy-button' onClick={() => { this.props.spicyReds() }}>
                             <h3>Fresh, Spicy Reds</h3>
                             <p><strong>Body:</strong> Medium; Some Full</p>
@@ -52,7 +55,8 @@ class WineStyleRed extends Component {
                         </p>
                         </div>
                     </div>   
-                    <div className='powerful-red'> 
+
+                    <div className='wine-four'> 
                         <Link to='/wineinfo'><div className='powerful-button' onClick={() => { this.props.powerfulReds() }}>
                             <h3>Powerful Reds</h3>
                             <p><strong>Body:</strong> Full</p>
@@ -65,6 +69,7 @@ class WineStyleRed extends Component {
                         </p>
                         </div>
                     </div>
+
                 </div>
             </div>
         )

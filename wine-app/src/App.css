@@ -31,6 +31,7 @@ body {
 
 .matt-image {
   width: 30%;
+  max-width: 300px;
 }
 
 .wine-color {
@@ -68,7 +69,7 @@ body {
   height: 80%;
 }
 
-.wine-style-red {
+.wine-style {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -80,80 +81,104 @@ body {
   height: 60%;
 }
 
-.wine-style-white {
-  display: flex;
-  flex-direction: row;
-}
 
-.red-style-choice {
+.wine-style-choice {
   display: flex;
   flex-direction: column;
   /* margin: 0 50px 0 50px; */
   justify-content: center;
   align-content: center;
+  flex-basis: 80%;
 }
 
-.mild-red {
+.wine-one {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
 }
 
-
-.fruity-red {
-  display: flex;
-  flex-direction: row;
+.wine-one a {
+  flex-basis: 50%;
+  max-width: 500px;
 }
 
-.spicy-red {
-  display: flex;
-  flex-direction: row;
+.wine-two a {
+  flex-basis: 50%;
+  max-width: 500px;
 }
 
-.powerful-red {
-  display: flex;
-  flex-direction: row;
+.wine-three a {
+  flex-basis: 50%;
+  max-width: 500px;
 }
 
-.red-style-choice .mild-button,
+.wine-four a {
+  flex-basis: 50%;
+  max-width: 500px;
+}
+
+.wine-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.wine-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.wine-four {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.wine-style-choice .wine-one-button,
 .fruity-button,
 .spicy-button,
 .powerful-button {
   border: 1px solid black;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  width: 500px;
+  flex-basis: 500px;
+  /* width: 500px ; */
   margin: 15px 0;
+  padding: 15px;
 }
 
-.red-style-choice .mild-description,
+.wine-style-choice .mild-description,
 .fruity-description,
 .spicy-description,
 .powerful-description {
   border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  width: 500px;
+  flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
-  
+
 }
 
 .mild-description p {
-margin: 7%;
+  margin: 7%;
 }
 
 .fruity-description p {
-margin: 7%;
+  margin: 7%;
 }
 
 .spicy-description p {
-margin: 7%;
+  margin: 7%;
 }
 
 .powerful-description p {
-margin: 7%;
+  margin: 7%;
 }
 
 
