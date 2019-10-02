@@ -13,12 +13,19 @@ class WineStyleRed extends Component {
             <div className='wine-style-red'>
                 {/* <img className='red-wine-wheel-image' src={RedWheel} alt="#"/> */}
                 <div className='red-style-choice'>
-                    <Link to='/wineinfo'><div className='mild-button' onClick={() => { this.props.mildReds()}}>
-                        <h3>MILD-MANNERED REDS</h3>
-                        <p><strong>Body:</strong> LIGHT to MEDIUM</p>
-                        <p><strong>Texture:</strong> LOW TANNIN; GENTLE</p>
-                        <p><strong>Flavor Intensity:</strong> LIGHT TO MEDIUM; SUBTLE, REFRESHING</p>
-                    </div></Link>
+                    <div>
+                        <Link to='/wineinfo'><div className='mild-button' onClick={() => { this.props.mildReds()}}>
+                            <h3>MILD-MANNERED REDS</h3>
+                            <p><strong>Body:</strong> LIGHT to MEDIUM</p>
+                            <p><strong>Texture:</strong> LOW TANNIN; GENTLE</p>
+                            <p><strong>Flavor Intensity:</strong> LIGHT TO MEDIUM; SUBTLE, REFRESHING</p>
+                        </div></Link>
+                        <div className='mild-description'>
+                            <p>
+                                Mild-Mannered Reds: These wines have aromas and flavors that are not intense, and they have a gentle character; most of them are fairly smooth and not very fruity.
+                        </p>
+                        </div>
+                    </div>
                     <Link to='/wineinfo'><div className='fruity-button' onClick={() => { this.props.fruityReds() }}>
                         <h3>Soft, Fruity Reds</h3>
                         <p><strong>Body:</strong> Light to Medium</p>
