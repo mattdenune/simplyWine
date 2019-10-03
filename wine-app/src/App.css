@@ -59,6 +59,12 @@ body {
   border-radius: 15px;
   width: 80%;
   height: 80%;
+  transition: 1s ease;
+}
+
+.red-wine-glass:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 
 
@@ -67,6 +73,12 @@ body {
   border-radius: 15px;
   width: 80%;
   height: 80%;
+  transition: 1s ease;
+}
+
+.white-wine-glass:hover {
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 
 .wine-style {
@@ -168,6 +180,27 @@ body {
 
 .wine-one-button h3 {
   font-size: 25px;
+  transition: .5s ease;
+}
+
+.wine-one-button:hover {
+  box-shadow: 0 0 0 10px #ac4ac6;
+  transition: .5s ease;
+}
+
+.wine-two-button:hover {
+  box-shadow: 0 0 0 10px #ac4ac6;
+  transition: .5s ease;
+}
+
+.wine-three-button:hover {
+  box-shadow: 0 0 0 10px #ac4ac6;
+  transition: .5s ease;
+}
+
+.wine-four-button:hover {
+  box-shadow: 0 0 0 10px #ac4ac6;
+  transition: .5s ease;
 }
 
 
@@ -183,8 +216,10 @@ body {
   color: white;
   font-family: 'KoHo', sans-serif;
 }
+
 .wine-two-button h3 {
   font-size: 25px;
+  transition: .5s ease;
 }
 
 .wine-style-choice-red .wine-three-button {
@@ -202,6 +237,7 @@ body {
 
 .wine-three-button h3 {
   font-size: 25px;
+  transition: .5s ease;
 }
 
 .wine-style-choice-red .wine-four-button {
@@ -219,6 +255,7 @@ body {
 
 .wine-four-button h3 {
   font-size: 25px;
+  transition: .5s ease;
 }
 
 .wine-style-choice-red .wine-one-description {
@@ -455,8 +492,23 @@ nav li {
 }
 
 nav a {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  padding-bottom: .25em;
   text-decoration: none;
 }
+
+nav a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
+
+/* Hover effect for Nav a taken from: https: //css-tricks.com/having-fun-with-link-hover-effects/ */
 
 .footer {
   font-family: 'Oldenburg', cursive;
@@ -490,6 +542,10 @@ nav a {
   font-size: 30px;
 }
 
+main {
+  min-height: 55vh;
+}
+
 
 @media only screen and (max-width: 600px) {
   .wine-one {
@@ -511,6 +567,7 @@ nav a {
     flex-basis: 100px !important;
     font-size: 20px !important;
   }
+
   .wine-two {
     flex-direction: column !important;
   }
@@ -530,6 +587,7 @@ nav a {
     flex-basis: 100px !important;
     font-size: 20px !important;
   }
+
   .wine-three {
     flex-direction: column !important;
   }
@@ -549,6 +607,7 @@ nav a {
     flex-basis: 100px !important;
     font-size: 20px !important;
   }
+
   .wine-four {
     flex-direction: column !important;
   }
@@ -584,6 +643,7 @@ nav a {
     flex-basis: 100px !important;
     font-size: 20px !important;
   }
+
   .wine-style-choice-red .wine-two-button {
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
@@ -599,6 +659,7 @@ nav a {
     flex-basis: 100px !important;
     font-size: 20px !important;
   }
+
   .wine-style-choice-red .wine-three-button {
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
@@ -614,6 +675,7 @@ nav a {
     flex-basis: 100px !important;
     font-size: 20px !important;
   }
+
   .wine-style-choice-red .wine-four-button {
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
@@ -631,7 +693,7 @@ nav a {
   }
 
   nav h3 {
-  font-size: 25px !important;
+    font-size: 25px !important;
   }
 
   nav {
@@ -639,42 +701,46 @@ nav a {
   }
 
   .wine-style-choice-red h1 {
-    font-size: 26px ;
+    font-size: 26px;
   }
 
-.wine-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-content: center;
-  border: 5px solid #8860d0;
-  background-color: #84ceeb;
-  border-radius: 15px;
-  flex-basis: 80%;
-  /* flex: 4; */
-  /* max-width: 200 px;
+  .wine-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    border: 5px solid #8860d0;
+    background-color: #84ceeb;
+    border-radius: 15px;
+    flex-basis: 80%;
+    /* flex: 4; */
+    /* max-width: 200 px;
   min-width: 100px; */
-  margin: 10px 20%;
-  padding: 15px;
-}
+    margin: 10px 10%;
+    padding: 15px;
+  }
 
-.description-image {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
-  flex-basis: 100px;
-}
+  .description-image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    flex-basis: 100px;
+  }
 
-.description-image img {
-  /* border: 2px solid #84ceeb; */
-  border-radius: 15px;
-  width: 200px;
-}
+  .description-image img {
+    /* border: 2px solid #84ceeb; */
+    border-radius: 15px;
+    width: 100%;
+  }
 
-.description-info {
-  flex-basis: 100px;
-  text-align: left;
-}
+  .description-info {
+    flex-basis: 100px;
+    text-align: left;
+  }
+
+  .description-info h3 {
+    text-align: center;
+  }
 
 }
