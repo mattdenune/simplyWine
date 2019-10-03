@@ -19,12 +19,12 @@ class WineInfo extends Component {
                             <img src={wine.image} alt="wine-label"/>
                         </div>
                         <div className='description-info'>
-                            <h3>Name: {wine.name}</h3>
-                            <p>Winery: {wine.winery}</p>
-                            <p>Year Produced: {wine.vintage}</p>
-                            <p>Grapes: {wine.varietal}</p>
-                            <p>Avg Price: {wine.price}</p>
-                            <p>Score: {wine.snoothrank}</p>
+                            <h3>{wine.name}</h3>
+                            <p><b>Winery:</b> {wine.winery}</p>
+                            <p><b>Year Produced:</b> {wine.vintage}</p>
+                            <p><b>Grapes:</b> {wine.varietal}</p>
+                            <p><b>Avg Price:</b> ${Math.floor(wine.price)}</p>
+                            <p><b>Score:</b> {wine.snoothrank}</p>
                         </div>
                     </div>
                 ))}
