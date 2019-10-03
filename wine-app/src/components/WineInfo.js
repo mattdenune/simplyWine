@@ -15,10 +15,10 @@ class WineInfo extends Component {
             <div>
                 {this.props.freshWines.map((wine, index) => (
                     <div key={index} className='wine-description'>
-                        <div>
+                        <div className='description-image'>
                             <img src={wine.image} alt="wine-label"/>
                         </div>
-                        <div>
+                        <div className='description-info'>
                             <h3>Name: {wine.name}</h3>
                             <p>Winery: {wine.winery}</p>
                             <p>Year Produced: {wine.vintage}</p>

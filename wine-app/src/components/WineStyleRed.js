@@ -17,7 +17,7 @@ class WineStyleRed extends Component {
                     <div className='wine-one'>
                         
                         <Link to='/wineinfo'><div className='wine-one-button' onClick={() => { this.props.mildReds()}}>
-                            <h3 className='test'>MILD-MANNERED REDS</h3>
+                            <h3>MILD-MANNERED REDS</h3>
                             <p><strong>Body:</strong> LIGHT to MEDIUM</p>
                             <p><strong>Texture:</strong> LOW TANNIN; GENTLE</p>
                             <p><strong>Flavor Intensity:</strong> LIGHT TO MEDIUM; SUBTLE, REFRESHING</p>

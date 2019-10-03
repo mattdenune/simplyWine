@@ -165,6 +165,9 @@ body {
   font-family: 'KoHo', sans-serif;
 }
 
+.wine-one-button h3 {
+  font-size: 25px;
+}
 
 
 .wine-style-choice-red .wine-two-button {
@@ -178,6 +181,9 @@ body {
   background-color: #A01B30;
   color: #FF4500;
   font-family: 'KoHo', sans-serif;
+}
+.wine-two-button h3 {
+  font-size: 25px;
 }
 
 .wine-style-choice-red .wine-three-button {
@@ -193,6 +199,10 @@ body {
   font-family: 'KoHo', sans-serif;
 }
 
+.wine-three-button h3 {
+  font-size: 25px;
+}
+
 .wine-style-choice-red .wine-four-button {
   border: 5px solid #5680e9;
   border-top-left-radius: 15px;
@@ -204,6 +214,10 @@ body {
   background-color: #4C0A18;
   color: #FF4500;
   font-family: 'KoHo', sans-serif;
+}
+
+.wine-four-button h3 {
+  font-size: 25px;
 }
 
 .wine-style-choice-red .wine-one-description {
@@ -383,7 +397,35 @@ body {
 .wine-description {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  border: 5px solid #8860d0;
+  background-color: #84ceeb;
+  border-radius: 15px;
+  flex-basis: 80%;
+  /* flex: 4; */
+  /* max-width: 200 px;
+  min-width: 100px; */
+  margin: 10px 20%;
+  padding: 15px;
+}
+
+.description-image {
+  display: flex;
+  align-content: center;
   justify-content: center;
+  margin: auto;
+  flex-basis: 500px;
+}
+
+.description-image img {
+  /* border: 2px solid #84ceeb; */
+  border-radius: 15px;
+  width: 200px;
+}
+
+.description-info {
+  flex-basis: 500px;
 }
 
 nav {
