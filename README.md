@@ -94,12 +94,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Build out component shells | M | 5hrs| - | - |
-| Access API info via JSON | H | 4hrs|- |- |
-| Build out component functionality | H | 8hrs|- |- |
-| Switch JSON to API | H | 3hrs|- |- |
-| Style CSS | H | 8hrs|- |- |
-| Adjust component render div's for layout. | M | 3hrs|- |- |
+| Build out component shells | M | 5hrs| 5hrs | 5hrs |
+| Access API info via JSON | H | 4hrs| 4hrs | 4hrs |
+| Build out component functionality | H | 8hrs| 10hrs |  |
+| Switch JSON to API | H | 3hrs| 3hrs | 3hrs |
+| Style CSS | H | 8hrs| 12hrs |- |
+| Adjust component render div's for layout. | M | 3hrs| 2hrs |- |
 | Total | H | 31hrs| - | - |
 
 
