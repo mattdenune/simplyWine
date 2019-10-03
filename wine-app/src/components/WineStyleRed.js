@@ -16,7 +16,7 @@ class WineStyleRed extends Component {
 
                     <div className='wine-one'>
                         <Link to='/wineinfo'><div className='wine-one-button' onClick={() => { this.props.mildReds()}}>
-                            <h3>MILD-MANNERED REDS</h3>
+                            <h3 className='test'>MILD-MANNERED REDS</h3>
                             <p><strong>Body:</strong> LIGHT to MEDIUM</p>
                             <p><strong>Texture:</strong> LOW TANNIN; GENTLE</p>
                             <p><strong>Flavor Intensity:</strong> LIGHT TO MEDIUM; SUBTLE, REFRESHING</p>
@@ -31,9 +31,9 @@ class WineStyleRed extends Component {
                     <div className='wine-two'>
                         <Link to='/wineinfo'><div className='wine-two-button' onClick={() => { this.props.fruityReds() }}>
                             <h3>Soft, Fruity Reds</h3>
-                            <p><strong>Body:</strong> Light to Medium</p>
-                            <p><strong>Texture:</strong> Low to Medium Tannin; Soft</p>
-                            <p><strong>Flavor Intensity:</strong> Medium to High; Refreshing</p>
+                            <p><strong>Body:</strong> LIGHT to MEDIUM</p>
+                            <p><strong>Texture:</strong> LOW to MEDIUM TANNIN; Soft</p>
+                            <p><strong>Flavor Intensity:</strong> MEDIUM to HIGH; REFRESHING</p>
                         </div></Link>
                         <div className='wine-two-description'>
                             <p>
@@ -45,9 +45,9 @@ class WineStyleRed extends Component {
                     <div className='wine-three'>
                         <Link to='/wineinfo'><div className='wine-three-button' onClick={() => { this.props.spicyReds() }}>
                             <h3>Fresh, Spicy Reds</h3>
-                            <p><strong>Body:</strong> Medium; Some Full</p>
-                            <p><strong>Texture:</strong> Medium Tannin; Firm</p>
-                            <p><strong>Flavor Intensity:</strong> Medium to High; Vibrant</p>
+                            <p><strong>Body:</strong> MEDIUM; SOME FULL</p>
+                            <p><strong>Texture:</strong> MEDIUM TANNIN; FIRM</p>
+                            <p><strong>Flavor Intensity:</strong> MEDIUM to HIGH; VIBRANT</p>
                         </div></Link>
                         <div className='wine-three-description'>
                             <p>

@@ -149,7 +149,7 @@ body {
 }
 
 .wine-style-choice-red .wine-one-button {
-  border: 5px solid #BF1E40;
+  border: 5px solid #5680e9;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
@@ -157,10 +157,14 @@ body {
   margin: 15px 0;
   padding: 15px;
   background-color: #BF1E40;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
 }
 
+
+
 .wine-style-choice-red .wine-two-button {
-  border: 5px solid #A01B30;
+  border: 5px solid #5680e9;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
@@ -168,10 +172,12 @@ body {
   margin: 15px 0;
   padding: 15px;
   background-color: #A01B30;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-red .wine-three-button {
-  border: 5px solid #7E1126;
+  border: 5px solid #5680e9;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
@@ -179,10 +185,12 @@ body {
   margin: 15px 0;
   padding: 15px;
   background-color: #7E1126;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-red .wine-four-button {
-  border: 5px solid #4C0A18;
+  border: 5px solid #5680e9;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
@@ -190,122 +198,156 @@ body {
   margin: 15px 0;
   padding: 15px;
   background-color: #4C0A18;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-red .wine-one-description {
-  border: 5px solid #BF1E40;
+  border: 5px solid #5680e9;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
   background-color: #BF1E40;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
 }
 
 .wine-style-choice-red .wine-two-description {
-  border: 5px solid #A01B30;
+  border: 5px solid #5680e9;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
   background-color: #A01B30;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
 }
 
 .wine-style-choice-red .wine-three-description {
-  border: 5px solid #7E1126;
+  border: 5px solid #5680e9;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
   background-color: #7E1126;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
 }
 
 .wine-style-choice-red .wine-four-description {
-  border: 5px solid #4C0A18;
+  border: 5px solid #5680e9;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
   background-color: #4C0A18;
+  color: #FF4500;
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
 }
 
 .wine-style-choice-white .wine-one-button {
-  border: 5px solid #F4FEBF;
+  border: 5px solid #84ceeb;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #F4FEBF;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-white .wine-two-button {
-  border: 5px solid #F7F69C;
+  border: 5px solid #84ceeb;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #F7F69C;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-white .wine-three-button {
-  border: 5px solid #EDE262;
+  border: 5px solid #84ceeb;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #EDE262;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-white .wine-four-button {
-  border: 5px solid #D9B753;
+  border: 5px solid #84ceeb;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
   /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
+  background-color: #D9B753;
+  font-family: 'KoHo', sans-serif;
 }
 
 .wine-style-choice-white .wine-one-description {
-  border: 5px solid #F4FEBF;
+  border: 5px solid #84ceeb;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #F4FEBF;
+  font-family: 'KoHo', sans-serif;
+  font-size: 17px;
 }
 
 .wine-style-choice-white .wine-two-description {
-  border: 5px solid #F7F69C;
+  border: 5px solid #84ceeb;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #F7F69C;
+  font-family: 'KoHo', sans-serif;
+  font-size: 17px;
 }
 
 .wine-style-choice-white .wine-three-description {
-  border: 5px solid #EDE262;
+  border: 5px solid #84ceeb;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #EDE262;
+  font-family: 'KoHo', sans-serif;
+  font-size: 17px;
 }
 
 .wine-style-choice-white .wine-four-description {
-  border: 5px solid #D9B753;
+  border: 5px solid #84ceeb;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   flex-basis: 500px;
   margin: 15px 0;
   text-align: justify;
+  background-color: #D9B753;
+  font-family: 'KoHo', sans-serif;
+  font-size: 17px;
 }
 
 .wine-one-description p {
