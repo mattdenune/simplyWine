@@ -148,6 +148,10 @@ body {
   align-content: center;
 }
 
+.wine-style-choice-red h1 {
+  font-family: 'Oldenburg', cursive;
+}
+
 .wine-style-choice-red .wine-one-button {
   border: 5px solid #5680e9;
   border-top-left-radius: 15px;
@@ -252,6 +256,10 @@ body {
   color: #FF4500;
   font-family: 'KoHo', sans-serif;
   font-size: 20px;
+}
+
+.wine-style-choice-white h1 {
+  font-family: 'Oldenburg', cursive;
 }
 
 .wine-style-choice-white .wine-one-button {
