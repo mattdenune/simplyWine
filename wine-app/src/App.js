@@ -26,9 +26,6 @@ class App extends Component {
 
 
   changeColor = async (color) => {
-    // this.setState({
-    //   color: color
-    // })
     const results = await axios.get(`http://api.snooth.com/wines/?akey=y8nbvqhqtphx0uwgi4o6k059ar3v08a5tnfz3ryvjeff9qm4&q=wine&xp=20&n=100&color=${color}`)
     this.setState({
       wines: results.data.wines
@@ -37,7 +34,6 @@ class App extends Component {
 
 
   freshWhite = (array) => {
-    //this is going to map my results and filter by varital key.
     const freshWines = this.state.wines.filter(wine => (
       wine.varietal === 'Gavi' || wine.varietal === 'Pinot Grigio' || wine.varietal === "Melon De Bourgogne" || wine.varietal === 'Muller-Thurgau' || wine.varietal === 'Orvieto' || wine.varietal === 'Pinot Bianco' || wine.varietal === 'Soave' || wine.varietal === 'Trebbiano' || wine.varietal === 'Verdelho' || wine.varietal === 'Chenin Blanc'
     ))
@@ -47,7 +43,6 @@ class App extends Component {
   }
 
   earthyWhite = (array) => {
-    //this is going to map my results and filter by varital key.
     const earthyWines = this.state.wines.filter(wine => (
       wine.varietal === 'Vouvray' || wine.varietal === 'Semillon' || wine.varietal === 'Sylvaner' || wine.varietal === 'Verdicchio' || wine.varietal === 'Xarel-lo' || wine.varietal === 'Roussanne' || wine.varietal === 'Chasselas'
     ))
@@ -57,7 +52,6 @@ class App extends Component {
   }
 
   aromaticWhite = (array) => {
-    //this is going to map my results and filter by varital key.
     const aromaticWines = this.state.wines.filter(wine => (
       wine.varietal === 'Riesling' || wine.varietal === 'Sauvignon Blanc' || wine.varietal === 'Gruner Veltliner' || wine.varietal === 'Muscat' || wine.varietal === 'Pinot Gris' || wine.varietal === 'Gewurztraminer' || wine.varietal === 'Torrontes' || wine.varietal === 'Falanghina' || wine.varietal === 'Fiano' || wine.varietal === 'Vermentino' || wine.varietal === 'Albarino'
     ))
@@ -67,7 +61,6 @@ class App extends Component {
   }
 
   richWhite = (array) => {
-    //this is going to map my results and filter by varital key.
     const richWines = this.state.wines.filter(wine => (
       wine.varietal === 'Chardonnay'
     ))
@@ -77,7 +70,6 @@ class App extends Component {
   }
 
   mildRed = (array) => {
-    //this is going to map my results and filter by varital key.
     const mildReds = this.state.wines.filter(wine => (
       wine.varietal === 'Tempranillo' || wine.varietal === 'Merlot' || wine.varietal === 'Sangiovese'
     ))
@@ -87,7 +79,6 @@ class App extends Component {
   }
 
   fruityRed = (array) => {
-    //this is going to map my results and filter by varital key.
     const fruityReds = this.state.wines.filter(wine => (
       wine.varietal === 'Pinot Noir' || wine.varietal === 'Dolcetto' || wine.varietal === 'Shiraz' || wine.varietal === 'Zinfandel' || wine.varietal === 'Gamay' || wine.varietal === 'Montepulciano' || wine.varietal === 'Primitivo' || wine.varietal === "Nero d'Avola" || wine.varietal === 'Bardolino' || wine.varietal === 'Valpolicella'
     ))
@@ -97,7 +88,6 @@ class App extends Component {
   }
 
   spicyRed = (array) => {
-    //this is going to map my results and filter by varital key.
     const spicyReds = this.state.wines.filter(wine => (
       wine.varietal === 'Barbera' || wine.varietal === 'Malbec' || wine.varietal === 'Syrah' || wine.varietal === 'Cabernet Franc' || wine.varietal === "Montepulciano d'Abruzzo" || wine.varietal === 'Lagrein' || wine.varietal === 'Teroldego' || wine.varietal === 'Blaufrankisch' || wine.varietal === 'Carmenere' || wine.varietal === 'Pinotage' || wine.varietal === 'Monastrell'
     ))
@@ -107,7 +97,6 @@ class App extends Component {
   }
 
   powerfulRed = (array) => {
-    //this is going to map my results and filter by varital key.
     const powerfulReds = this.state.wines.filter(wine => (
       wine.varietal === 'Nebbiolo' || wine.varietal === 'Cabernet Sauvignon' || wine.varietal === 'Aglianico' || wine.varietal === 'Grenache'
     ))
@@ -158,8 +147,8 @@ class App extends Component {
                           <h4 className='loading-words'>Loading</h4>
                         </div> 
                 }
-                } 
-                }/>
+              } 
+              }/>
             <Route exact path='/wineinfo' render={() => <WineInfo freshWines={this.state.wineResults} />} />
             <Route component={NotFound} />
           </Switch>
