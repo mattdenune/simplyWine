@@ -1,15 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class WineInfo extends Component {
-    constructor(props) {
-        super(props)
-    
-    
-    }
+
     
     
     render() {
-        console.log(this.props.freshWines)
 
         return(
             <div>

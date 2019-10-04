@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import WhiteWheel from '../Images/white-wheel-1.JPG';
 import { Link } from 'react-router-dom';
 
 class WineStyleWhite extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return (
             <div className='wine-style'>
-                {/* <img className='white-wine-wheel-image' src={WhiteWheel} alt="#"/> */}
                 <div className='wine-style-choice-white'>
                     <h1>Choose your wine style:</h1>
+                    
                     <div className='wine-one'>
                         <Link to='/wineinfo'><div className='wine-one-button' onClick={() => { this.props.freshWhite()}}>
                             <h3>FRESH, UNOAKED WHITES</h3>

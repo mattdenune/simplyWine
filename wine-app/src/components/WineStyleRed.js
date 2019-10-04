@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import RedWheel from '../Images/red-wheel-1.JPG';
 import { Link } from 'react-router-dom';
 
 
 class WineStyleRed extends Component {
-    constructor(props) {
-        super(props)
-    }
+
 
     render() {
         return(
             <div className='wine-style'>
-                {/* <img className='red-wine-wheel-image' src={RedWheel} alt="#"/> */}
                 <div className='wine-style-choice-red'>
                     <h1>Choose your wine style:</h1>
                     <div className='wine-one'>

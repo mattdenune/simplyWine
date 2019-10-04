@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Matt from '../Images/Matt.png'
+import React, { Component } from 'react';
+import Matt from '../Images/Matt.png';
 
 class About extends Component {
 

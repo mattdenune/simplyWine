@@ -30,7 +30,6 @@ class App extends Component {
     //   color: color
     // })
     const results = await axios.get(`http://api.snooth.com/wines/?akey=y8nbvqhqtphx0uwgi4o6k059ar3v08a5tnfz3ryvjeff9qm4&q=wine&xp=20&n=100&color=${color}`)
-    console.log(results.data)
     this.setState({
       wines: results.data.wines
     })
@@ -45,7 +44,6 @@ class App extends Component {
     this.setState({
       wineResults: freshWines
     })
-    console.log(freshWines)
   }
 
   earthyWhite = (array) => {
@@ -56,7 +54,6 @@ class App extends Component {
     this.setState({
       wineResults: earthyWines
     })
-    console.log(earthyWines)
   }
 
   aromaticWhite = (array) => {
@@ -67,7 +64,6 @@ class App extends Component {
     this.setState({
       wineResults: aromaticWines
     })
-    console.log(aromaticWines)
   }
 
   richWhite = (array) => {
@@ -78,7 +74,6 @@ class App extends Component {
     this.setState({
       wineResults: richWines
     })
-    console.log(richWines)
   }
 
   mildRed = (array) => {
@@ -89,7 +84,6 @@ class App extends Component {
     this.setState({
       wineResults: mildReds
     })
-    console.log(mildReds)
   }
 
   fruityRed = (array) => {
@@ -100,7 +94,6 @@ class App extends Component {
     this.setState({
       wineResults: fruityReds
     })
-    console.log(fruityReds)
   }
 
   spicyRed = (array) => {
@@ -111,7 +104,6 @@ class App extends Component {
     this.setState({
       wineResults: spicyReds
     })
-    console.log(spicyReds)
   }
 
   powerfulRed = (array) => {
@@ -122,26 +114,10 @@ class App extends Component {
     this.setState({
       wineResults: powerfulReds
     })
-    console.log(powerfulReds)
   }
-
-  // grapeVarietal = (array) => {
-  //   //this is going to map my results and filter by varital key.
-  //   const wines = this.state.wines.filter(wine => (
-  //     array.map(grape => (
-  //       `wine.varietal === "${grape}"`
-  //     )).join(' || ')
-  //     // console.log(wineParameters)
-  //     // wine.varietal === 'Grillo' || wine.varietal === 'Sauvignon Blanc'
-  //   ))
-  //   console.log(wines)
-  // }
-
-
 
 
   render() {
-    // console.log(this.grapeVarietal)
     return (
       <div className="App">
         <head>

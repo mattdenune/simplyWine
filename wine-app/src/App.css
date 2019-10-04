@@ -1,7 +1,3 @@
-/* * {
-  border: 1px solid red;
-} */
-
 body {
   background-color: #C1c8e4
 }
@@ -50,7 +46,6 @@ body {
   min-width: 200px;
   max-width: 400px;
   flex-basis: auto;
-  /* default value */
   flex-grow: 1;
 }
 
@@ -97,7 +92,6 @@ body {
 .wine-style-choice-red {
   display: flex;
   flex-direction: column;
-  /* margin: 0 50px 0 50px; */
   justify-content: center;
   align-content: center;
   flex-basis: 80%;
@@ -106,7 +100,6 @@ body {
 .wine-style-choice-white {
   display: flex;
   flex-direction: column;
-  /* margin: 0 50px 0 50px; */
   justify-content: center;
   align-content: center;
   flex-basis: 80%;
@@ -209,7 +202,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #A01B30;
@@ -227,7 +219,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #7E1126;
@@ -245,7 +236,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #4C0A18;
@@ -319,7 +309,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #F4FEBF;
@@ -331,7 +320,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #F7F69C;
@@ -343,7 +331,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #EDE262;
@@ -355,7 +342,6 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   flex-basis: 500px;
-  /* width: 500px ; */
   margin: 15px 0;
   padding: 15px;
   background-color: #D9B753;
@@ -441,9 +427,6 @@ body {
   background-color: #84ceeb;
   border-radius: 15px;
   flex-basis: 80%;
-  /* flex: 4; */
-  /* max-width: 200 px;
-  min-width: 100px; */
   margin: 10px 20%;
   padding: 15px;
 }
@@ -457,7 +440,6 @@ body {
 }
 
 .description-image img {
-  /* border: 2px solid #84ceeb; */
   border-radius: 15px;
   width: 200px;
 }
@@ -713,9 +695,6 @@ main {
     background-color: #84ceeb;
     border-radius: 15px;
     flex-basis: 80%;
-    /* flex: 4; */
-    /* max-width: 200 px;
-  min-width: 100px; */
     margin: 10px 10%;
     padding: 15px;
   }
@@ -729,7 +708,6 @@ main {
   }
 
   .description-image img {
-    /* border: 2px solid #84ceeb; */
     border-radius: 15px;
     width: 100%;
   }

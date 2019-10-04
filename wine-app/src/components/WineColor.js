@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
-import Red from '../Images/red-glass.JPG'
-import White from '../Images/white-glass.JPG'
+import React, { Component } from 'react';
+import Red from '../Images/red-glass.JPG';
+import White from '../Images/white-glass.JPG';
 import { Link } from 'react-router-dom';
-import winestylered from './WineStyleRed';
 
 class WineColor extends Component {
-    constructor(props) {
-        super(props)
-    }
+
 
     render() {
         return(
