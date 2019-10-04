@@ -528,6 +528,58 @@ main {
   min-height: 55vh;
 }
 
+.loading-words {
+  text-align: center;
+  margin-top: 200%;
+  font-size: 60px;
+}
+
+.loading {
+  height: 48px;
+  width: 48px;
+  color: #5a5a5a;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.loading::after,
+.loading::before {
+  content: '';
+  height: 0;
+  width: 0;
+  border: inherit;
+  border: 5px solid;
+  border-radius: inherit;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  animation: circle-ripple 1s linear infinite;
+}
+
+.loading::before {
+  animation-delay: -0.5s;
+}
+
+/* spinning loader animation take from https://mdjunaidalam5.github.io/SpinBolt/ */
+
+@keyframes circle-ripple {
+  0% {
+    height: 0;
+    width: 0;
+    left: 20px;
+    top: 20px;
+  }
+
+  100% {
+    height: 48px;
+    width: 48px;
+    left: -5px;
+    top: -5px;
+    opacity: 0;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .wine-one {

@@ -138,7 +138,10 @@ class App extends Component {
                 />
               }
               else {
-                return <div>Loading</div>
+                return  <div className="loading">
+                          <h4 className='loading-words'>Loading</h4>
+                        </div> 
+
               }
             }
             } />
@@ -151,7 +154,9 @@ class App extends Component {
                 richWhite={this.richWhite} 
                 />
                 } else {
-                  return <div>Loading</div>
+                return  <div className="loading">
+                          <h4 className='loading-words'>Loading</h4>
+                        </div> 
                 }
                 } 
                 }/>
